@@ -1,22 +1,323 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
-    <title>Владимир Кузнецов</title>
-  </head>
-  <body>
-    <header>
-      Resume online
-    </header>
-    <main>
 
-    </main>
-    <footer>
+<head>
+  <meta charset="utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="css/style.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Rubik:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="img/png/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="img/png/favicon-32x32.png" sizes="32x32" type="image/png">
+  <title>Владимир Кузнецов</title>
+</head>
 
-    </footer>
-  </body>
+<body>
+  <header class="page-header">
+    <img class="page-header__avatar-image" src="http://placehold.it/111x111" />
+    <div class="page-header__title-wrapper">
+      <h1 class="page-header__title">
+        Владимир Кузнецов
+      </h1>
+      <h2 class="page-header__subtitle">
+        front-end developer
+      </h2>
+    </div>
+    <div class="page-header__contacts-wrapper">
+      <ul class="contacts contacts__list">
+        <li class="contacts__item contacts__item--telephone">
+          <a class="contacts__link contacts__link--telephone" href="tel:+79155833754">
+            <img src="img/svg/icon-telephone.svg" class="contacts__link-icon contacts__link-icon--telephone"></img>
+            +79155833754
+          </a>
+        </li>
+        <li class="contacts__item contacts__item--github">
+
+          <a class="contacts__link contacts__link--github" href="https://king-midas.github.io">
+            <img src="img/svg/icon-link.svg" class="contacts__link-icon contacts__link-icon--github"></img>
+            https://king-midas.github.io</a>
+        </li>
+        <li class="contacts__item contacts__item--mail">
+          <a class="contacts__link contacts__link--mail" href="mailto:vkuznetsov1050@gmail.com">
+            <img src="img/svg/icon-mail.svg" class="contacts__link-icon contacts__link-icon--mail"></img>
+            vkuznetsov1050@gmail.com</a>
+        </li>
+        <li class="contacts__item contacts__item--geo">
+          <a class="contacts__link contacts__link--geo" href="https://yandex.ru/maps/-/CCQdj4aetB" target="_blank">
+            <img src="img/svg/icon-geo.svg" class="contacts__link-icon contacts__link-icon--geo"></img>
+            Россия, Воронеж</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main aria-label="Основное содержание">
+    <section class="experience">
+      <h3 class="experience__title">
+        Опыт
+        <hr align="left" width="300" size="2" color="#000" />
+      </h3>
+      <div class="experience__content">
+        <ul class="experience__list">
+          <li class="experience__list-item">
+            <h4 class="experience__profession-name">
+              Front-End Developer
+            </h4>
+            <h5 class="experience__company-name">
+              Freelance
+            </h5>
+            <ul class="experience__period-list">
+              <li class="experience__work-duration">
+                2018 - Настоящее время
+              </li>
+              <li class="experience__work-location">
+                Воронеж
+              </li>
+              <li class="experience__work-link">
+                <a href="https://king-midas.github.io/">https://king-midas.github.io/</a>
+              </li>
+            </ul>
+            <p class="experience__about-work">
+              Разработка сайтов, лендингов, интернет-магазинов.
+            </p>
+            <ul class="experience__work-skills-list">
+              <li class="experience__work-skills-item">Семантическая верстка;</li>
+              <li class="experience__work-skills-item">БЭМ;</li>
+              <li class="experience__work-skills-item">Адаптивная и резиновая графика;</li>
+              <li class="experience__work-skills-item">Кроссбраузерная верстка;</li>
+              <li class="experience__work-skills-item">Работа с препроцессорами SASS/LESS;</li>
+              <li class="experience__work-skills-item">Работа со сборщиком проектов GULP;</li>
+              <li class="experience__work-skills-item">Работа с системой контроля версий Git;</li>
+            </ul>
+          </li>
+          <li class="experience__list-item">
+            <h4 class="experience__profession-name">
+              Контент-Менеджер / Старший Контент-Менеджер
+            </h4>
+            <h5 class="experience__company-name">
+              Este IT
+            </h5>
+            <ul class="experience__period-list">
+              <li class="experience__work-duration">
+                2016 - 2018
+              </li>
+              <li class="experience__work-location">
+                Воронеж
+              </li>
+              <li class="experience__work-link">
+                <a href="http://esteit.com/">http://esteit.com/</a>
+              </li>
+            </ul>
+            <p class="experience__about-work">
+              Компания EsteIT занимается разработкой и внедрением проектов электронной коммерции.
+            </p>
+            <ul class="experience__work-skills-list">
+              <li class="experience__work-skills-item">Опыт работы с 1C Битрикс - есть сертификат контент-менеджера;
+              </li>
+              <li class="experience__work-skills-item">Подбор, редактирование, обновление и загрузка контента на сайт;
+              </li>
+              <li class="experience__work-skills-item">Обработка и размещение графических объектов;</li>
+              <li class="experience__work-skills-item">Отвечал за разработку логики работы дополнительных интерфейсов
+                для оптимизации работы интернет-магазина;</li>
+              <li class="experience__work-skills-item">Отвечал за наполнение интернет-магазина контентом от 0 и до
+                запуска;</li>
+              <li class="experience__work-skills-item">В нескольких проектах выступал в роли менеджера;</li>
+              <li class="experience__work-skills-item">Руководил группой контент-менеджеров на удаленной работе;</li>
+              <li class="experience__work-skills-item">Опыт работы с дедлайнами и планирования работ;</li>
+            </ul>
+          </li>
+          <li class="experience__list-item">
+            <h4 class="experience__profession-name">
+              Технический Специалист
+            </h4>
+            <h5 class="experience__company-name">
+              ЗАО "Связной Логистика"
+            </h5>
+            <ul class="experience__period-list">
+              <li class="experience__work-duration">
+                2011 - 2016
+              </li>
+              <li class="experience__work-location">
+                Воронеж
+              </li>
+              <li class="experience__work-link">
+                <a href="https://svyaznoy.ru/">https://svyaznoy.ru/</a>
+              </li>
+            </ul>
+            <p class="experience__about-work">
+              Svyaznoy.ru - это один из ведущих интернет-магазинов мобильной и цифровой техники в России.
+            </p>
+            <ul class="experience__work-skills-list">
+              <li class="experience__work-skills-item">Разобрался с внутренним устройством интернет-магазинов;</li>
+              <li class="experience__work-skills-item">Разработал 2 программы обучения сотрудников;</li>
+              <li class="experience__work-skills-item">Провел более 100 индивидуальных и групповых обучений сотрудников;
+              </li>
+              <li class="experience__work-skills-item">Имею опыт публичных выступлений;</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+    <section class="projects">
+      <h3 class="projects__title">
+        Проекты
+        <hr align="left" width="300" size="2" color="#000" />
+      </h3>
+
+      <div class="projects__content">
+        <ul class="projects__list">
+          <li class="projects__list-item">
+            <div class="projects__list-item-preview">
+              <img class=projects__project-image" src="http://placehold.it/69x180" />
+            </div>
+            <div class="projects__list-item-content">
+            <h4 class="projects__project-name">
+              Техномарт
+            </h4>
+            <ul class="projects__period-list">
+              <li class="projects__work-duration">
+                2019
+              </li>
+              <li class="projects__work-link">
+                <a href="https://king-midas.github.io/tehnomart">https://king-midas.github.io/tehnomart/</a>
+              </li>
+            </ul>
+            <p class="projects__about-project">
+              Проект интернет-магазина строительной тезхники.
+            </p>
+            <ul class="projects__project-skills-list">
+              <li class="projects__project-skills-item">Фиксированная верстка;</li>
+              <li class="projects__project-skills-item">Сетка на флексбоксах;</li>
+              <li class="projects__project-skills-item">Vanilla JS;</li>
+            </ul>
+          </div>
+          </li>
+          <li class="projects__list-item">
+            <div class="projects__list-item-preview">
+              <img class=projects__project-image" src="http://placehold.it/69x180" />
+              </div>
+            <div class="projects__list-item-content">
+            <h4 class="projects__project-name">
+              Кэт энерджи
+            </h4>
+            <ul class="projects__period-list">
+              <li class="projects__work-duration">
+                2019
+              </li>
+              <li class="projects__work-link">
+                <a href="https://king-midas.github.io/cat-energy">https://king-midas.github.io/cat-energy/</a>
+              </li>
+            </ul>
+            <p class="projects__about-project">
+              Проект интернет-магазина питания для кошек.
+            </p>
+            <ul class="projects__project-skills-list">
+              <li class="projects__project-skills-item">Верстка адаптирована для смартфонов, планшетов и десктопов;</li>
+              <li class="projects__project-skills-item">Резиновая верстка;</li>
+              <li class="projects__project-skills-item">Изображения адаптированы как для обычных так и для
+                retina-дисплеев;</li>
+              <li class="projects__project-skills-item">Использован препроцессор - LESS;</li>
+              <li class="projects__project-skills-item">Сборка проекта - Gulp;</li>
+              <li class="projects__project-skills-item">Vanilla JS;</li>
+              <li class="projects__project-skills-item">Изображения оптимизировны(webp) для быстрой загрузки;</li>
+            </ul>
+          </div>
+          </li>
+          <li class="projects__list-item">
+            <div class="projects__list-item-preview">
+              <img class=projects__project-image" src="http://placehold.it/69x180" />
+              </div>
+            </div>
+            <div class="projects__list-item-content">
+            <h4 class="projects__project-name">
+              Pink
+            </h4>
+            <ul class="projects__period-list">
+              <li class="projects__work-duration">
+                2020
+              </li>
+              <li class="projects__work-link">
+                <a href="https://king-midas.github.io/pink">https://king-midas.github.io/pink/</a>
+              </li>
+            </ul>
+            <p class="projects__about-project">
+              Проект сайта, который рассказывает о преимуществах приложения Pink.
+            </p>
+            <ul class="projects__project-skills-list">
+              <li class="projects__project-skills-item">Верстка адаптирована для смартфонов, планшетов и десктопов;</li>
+              <li class="projects__project-skills-item">Резиновая верстка;</li>
+              <li class="projects__project-skills-item">Изображения адаптированы как для обычных так и для
+                retina-дисплеев;</li>
+              <li class="projects__project-skills-item">Использован препроцессор - SASS;</li>
+              <li class="projects__project-skills-item">Сборка проекта - Gulp;</li>
+              <li class="projects__project-skills-item">Vanilla JS;</li>
+              <li class="projects__project-skills-item">Изображения оптимизировны(webp) для быстрой загрузки;</li>
+            </ul>
+          </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="skills">
+      <h3 class="skills__title">
+        Навыки
+        <hr align="left" width="300" size="2" color="#000" />
+      </h3>
+          <ul class="skills__list">
+            <li class="skills__list-item">
+              <h5 class="skills__skill-section-name">
+                Программирование
+              </h5>
+              <ul class="skills__work-skills-list">
+                <li class="skills__work-skills-item">HTML5;</li>
+                <li class="skills__work-skills-item">JavaScript;</li>
+                <li class="skills__work-skills-item">LESS/SASS;</li>
+                <li class="skills__work-skills-item">CSS3;</li>
+                <li class="skills__work-skills-item">Git</li>
+                <li class="skills__work-skills-item">GULP;</li>
+                <li class="skills__work-skills-item">npm;</li>
+              </ul>
+            </li>
+            <li class="skills__list-item">
+              <h5 class="skills__skill-section-name">
+                Дизайн
+              </h5>
+              <ul class="skills__work-skills-list">
+                <li class="skills__work-skills-item">Adobe Photoshop;</li>
+                <li class="skills__work-skills-item">Zeplin;</li>
+                <li class="skills__work-skills-item">Avocode;</li>
+                <li class="skills__work-skills-item">Sketch;</li>
+                <li class="skills__work-skills-item">Figma</li>
+              </ul>
+            </li>
+            <li class="skills__list-item">
+              <h5 class="skills__skill-section-name">
+                Управление проектами
+              </h5>
+              <ul class="skills__work-skills-list">
+                <li class="skills__work-skills-item">Trello;</li>
+                <li class="skills__work-skills-item">Jira;</li>
+              </ul>
+            </li>
+          </ul>
+    </section>
+    <section class="about">
+      <h3 class="about__title">
+        О себе
+        <hr align="left" width="300" size="2" color="#000" />
+      </h3>
+      <p class="about__content">
+        Фронтенд разработчик с навыками работы в графических редакторах. Создаю контент и управляю им. Работаю удаленно. Имею опыт руководства удаленной командой.
+        На пути к профессии разработчика я так же был продавцом-консультантом в интернет-магазине цифровой техники, техническим специалистом, специалистом по обучению персонала, контент-менеджером. Знаю изнутри специфику работы, задачи и методы их решения на каждом из этих направлений.
+      </p>
+    </section>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
 </html>
