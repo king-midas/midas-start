@@ -1,0 +1,39 @@
+.projects__title {
+    font-family: $rubik;
+    font-weight: $bold;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.projects__list {
+    list-style: none;
+    padding: 0;
+}
+
+.projects__project-name {
+    font-family: $rubik;
+    font-weight: $bold;
+    font-size: 11px;
+}
+
+.projects__work {
+    font-family: $inter;
+    font-weight: $normal;
+    font-size: 9px;
+}
+
+.projects__about-project {
+    font-family: $inter;
+    font-weight: $normal;
+    font-size: 9px;
+}
+
+.projects__project-skills-item {
+    font-family: $inter;
+    font-weight: $normal;
+    font-size: 8px;
+}
+
+.projects__divide-line {
+    border: 1px dashed lightgray;
+}

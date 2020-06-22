@@ -1,0 +1,30 @@
+.skills__title {
+    font-family: $rubik;
+    font-weight: $bold;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.skills__list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills__skill-section-name {
+    font-family: $rubik;
+    font-weight: $medium;
+    font-size: 10px;
+    color: $subtitle-text-color;
+}
+
+.skills__work-skills-item {
+    font-family: $rubik;
+    font-weight: $bold;
+    font-size: 11px;
+    list-style: none;
+    text-decoration: underline;
+}
+
+.skills__divide-line {
+    border: 1px dashed lightgray;
+}

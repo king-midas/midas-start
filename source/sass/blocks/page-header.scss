@@ -1,0 +1,23 @@
+.page-header__title {
+  font-family: $rubik;
+  font-size: 24px;
+  font-weight: $bold;
+  text-transform: uppercase;
+}
+
+// .page-header {
+  // background-color: blue;
+// }
+
+.page-header__subtitle {
+  font-family: $rubik;
+  font-size: 13px;
+  font-weight: $bold;
+  color: $subtitle-text-color;
+}
+
+.page-header__avatar-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
